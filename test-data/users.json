@@ -1,0 +1,67 @@
+{
+  "validUser": {
+    "name": "Test User",
+    "email": "",
+    "password": "123456",
+    "firstName": "Test",
+    "lastName": "User",
+    "company": "TestCorp",
+    "address1": "123 Main Street",
+    "address2": "Apt 4B",
+    "country": "India",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "zipcode": "500001",
+    "mobile": "9999999999",
+    "day": "10",
+    "month": "5",
+    "year": "1995"
+  },
+
+  "registeredUser": {
+    "name": "Registered User",
+    "email": "pratyusha123@gmail.com", 
+    "password": "123456"
+  },
+
+  "invalidUser": {
+    "email": "wronguser@gmail.com",
+    "password": "wrongpassword123"
+  },
+
+  "existingUser": {
+    "name": "Existing User",
+    "email": "existinguser@gmail.com",
+    "password": "Existing@1234"
+  },
+
+  "contactForm": {
+    "name": "Test User",
+    "email": "testuser9876@gmail.com",
+    "subject": "Automation Test Subject",
+    "message": "This is a test message sent via automation testing using Playwright."
+  },
+
+  "payment": {
+    "nameOnCard": "Test User",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2027"
+  },
+
+  "searchProduct": {
+    "name": "Top",
+    "invalidName": "xyzabc123"
+  },
+
+  "review": {
+    "name": "Test User",
+    "email": "testuser9876@gmail.com",
+    "review": "This is an amazing product! Highly recommended for everyone."
+  },
+
+  "subscription": {
+    "email": "subscribe9876@gmail.com"
+  }
+}
