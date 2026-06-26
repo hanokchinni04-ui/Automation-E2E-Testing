@@ -13,6 +13,7 @@ browsing, cart, checkout, authentication, and general site UI flows.
 
 ## Project Structure
 
+```
 project/
 ├── Pages/                  Page Object classes (one per site area)
 │   ├── homePage.js
@@ -33,6 +34,7 @@ project/
 │   └── users.json          Test fixtures (users, payment info, etc.)
 ├── playwright.config.js
 └── .github/workflows/playwright.yml   CI pipeline (GitHub Actions)
+```
 
 ## Setup
 
